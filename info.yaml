@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     447821705259994113       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "4-bit asynchronous up counter"      # Project title
+  author:       "Gary Wong"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "up counter using d flip-flops converted to t flip-flops"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,8 +16,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "Clk"
+  ui[1]: "I0"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -26,10 +26,10 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "Q0"
+  uo[1]: "Q1"
+  uo[2]: "Q2"
+  uo[3]: "Q3"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""

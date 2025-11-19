@@ -17,4 +17,4 @@ Set I0 to low, then step clock forward 16 times to test all possible variations.
 
 ## External hardware
 
-Four LEDs
+ One Button, Four LEDs

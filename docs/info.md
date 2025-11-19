@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Given an input of low from I0, the circuit counts up with each Clk input.
 
 ## How to test
 
-Explain how to use your project
+Set I0 to low, then step clock forward 16 times to test all possible variations.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Four LEDs
